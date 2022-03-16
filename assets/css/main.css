@@ -9,7 +9,7 @@
 
 
 .logo{
-    width: 300px;
+    width: 12em;
     height: auto;
     display: block;
     margin-left: auto;
@@ -1829,12 +1829,13 @@ input, select, textarea {
 /* Form */
 
 	form {
-		background-color: #000;
+		background-color: #fff;
 		margin: 0 0 2em 0;
+		padding: 0 2em 0 2em;
 	}
 
 	label {
-		color: #fff;
+		color: #000;
 		display: block;
 		font-size: 0.9em;
 		font-weight: 600;
@@ -1850,10 +1851,10 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background-color: rgba(144, 144, 144, 0.25);
+		background-color: #DFDEDF;
 		border-radius: 3px;
 		border: none;
-		color: inherit;
+		color: black;
 		display: block;
 		outline: 0;
 		padding: 0 1em;
@@ -1922,7 +1923,7 @@ input, select, textarea {
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: #fff;
+			color: #000;
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -1964,7 +1965,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #2e3842;
+			background: #5C3E33;
 			color: #fff;
 			content: '\f00c';
 		}
@@ -1983,22 +1984,22 @@ input, select, textarea {
 	}
 
 	::-webkit-input-placeholder {
-		color: rgba(255, 255, 255, 0.5) !important;
+		color: rgba(56, 56, 56, 0.5) !important;
 		opacity: 1.0;
 	}
 
 	:-moz-placeholder {
-		color: rgba(255, 255, 255, 0.5) !important;
+		color: rgba(56, 56, 56, 0.5) !important;
 		opacity: 1.0;
 	}
 
 	::-moz-placeholder {
-		color: rgba(255, 255, 255, 0.5) !important;
+		color: rgba(56, 56, 56, 0.5) !important;
 		opacity: 1.0;
 	}
 
 	:-ms-input-placeholder {
-		color: rgba(255, 255, 255, 0.5) !important;
+		color: rgba(56, 56, 56, 0.5) !important;
 		opacity: 1.0;
 	}
 
