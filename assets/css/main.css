@@ -1830,8 +1830,16 @@ input, select, textarea {
 
 	form {
 		background-color: #fff;
-		margin: 0 0 2em 0;
-		padding: 0 2em 0 2em;
+		margin: 0 0 0;
+		padding: 2em 10em 2em 10em;
+	}
+
+	@media screen and (max-width: 980px) {
+
+		form {
+			padding: 2em 5em 2em 5em;
+		}
+
 	}
 
 	label {
@@ -3267,6 +3275,11 @@ input, select, textarea {
 
 				.wrapper.style5 table tbody tr:nth-child(2n + 1) {
 					background-color: #B5E0F0;
+				}
+
+				.wrapper.style5 .tablecafe tbody tr:nth-child(2n + 1) {
+					background-color: #7F5439;
+					color: white;
 				}
 
 			.wrapper.style5 table th {
