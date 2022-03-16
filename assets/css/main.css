@@ -3278,8 +3278,8 @@ input, select, textarea {
 				}
 
 				.wrapper.style5 .tablecafe tbody tr:nth-child(2n + 1) {
-					background-color: #7F5439;
-					color: white;
+					background-color: #DFC7B9;
+					/*color: white;*/
 				}
 
 			.wrapper.style5 table th {
