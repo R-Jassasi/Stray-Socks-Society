@@ -247,7 +247,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 2px #DFDEDF;
+		border-bottom: solid 1px #DFDEDF;
 		margin: 3em 0;
 	}
 
@@ -1829,6 +1829,7 @@ input, select, textarea {
 /* Form */
 
 	form {
+		background-color: #000;
 		margin: 0 0 2em 0;
 	}
 
@@ -1873,7 +1874,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			box-shadow: 0 0 0 2px #21b2a6;
+			box-shadow: 0 0 0 2px #B5E0F0;
 		}
 
 	select {
@@ -1970,7 +1971,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			box-shadow: 0 0 0 2px #21b2a6;
+			box-shadow: 0 0 0 2px #B5E0F0
 		}
 
 	input[type="checkbox"] + label:before {
