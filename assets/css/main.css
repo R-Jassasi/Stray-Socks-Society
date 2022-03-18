@@ -13,16 +13,24 @@
     height: auto;
     display: block;
     margin-left: auto;
-    margin-right: auto;
-    
-    
+    margin-right: auto;   
 }
+
+.smalllogo{
+	width: 60px;
+}
+
+
 
 @media screen and (max-width: 700px) {
 
 	iframe{
 		width: 70vw;
 		height: 70vw;
+	}
+
+	.smalllogo{
+		width: 50px;
 	}
 	
 }
