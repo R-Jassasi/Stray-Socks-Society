@@ -2132,6 +2132,12 @@ input, select, textarea {
 
 /* Image */
 
+    .poster {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+    } 
+
 	.image {
 		border-radius: 3px;
 		border: 0;
